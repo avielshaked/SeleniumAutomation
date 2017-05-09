@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Properties>
+  <UserData>
+    <ID>510725971</ID>
+    <Password>test22</Password>
+  </UserData>
+  <ContactData>
+    <Fullname>בדיקה בדיקה</Fullname>
+    <Co_ID>890108558</Co_ID>
+    <Phone>0541111111</Phone>
+    <Email>Test1_!@Migdal.Co.iL</Email>
+  </ContactData>
+  <FindAgentData>
+    <AgentNamefield>אור י</AgentNamefield>
+    <AgencyNameField>סיני</AgencyNameField>
+    <AgentChoice>אור יפתח</AgentChoice>
+    <AgencyChoice>סיני סוכנות לביטוח</AgencyChoice>
+  </FindAgentData>
+  <ShinuiMaslul>
+    <GemelID>73883043</GemelID>
+    <GemelIDPassword>test10</GemelIDPassword>
+    <HishtalmutID>73883043</HishtalmutID>
+    <HishtalmutIDPassword>test10</HishtalmutIDPassword>
+    <Gemel_LehashkaaID>57469389</Gemel_LehashkaaID>
+    <Gemel_LehashkaaPassword>test10</Gemel_LehashkaaPassword>
+    <KeshetID>27144070</KeshetID>
+    <KeshetPassword>test10</KeshetPassword>
+    <PensionID>38443396</PensionID>
+    <PensionPassword>test10</PensionPassword>
+    <BituahHaimID>309114619</BituahHaimID>
+    <BituahHaimPassword>test10</BituahHaimPassword>
+  </ShinuiMaslul>
+</Properties>

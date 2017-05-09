@@ -13,7 +13,7 @@ using System.Reflection;
 
 namespace Project1.GenericMethods
 {
-    class GenericMethods
+    public class Generic_Methods : Wait_Methods
     {
         public string TakeScreenShot(string PicName, IWebDriver driver)
         {
@@ -28,7 +28,7 @@ namespace Project1.GenericMethods
             Random ran = new Random();
             string ImagePath = ScreenShots_FullPath + "\\" + PicName + ran.Next() +".jpg";
             Screenshot ss = ((ITakesScreenshot)driver).GetScreenshot();
-            ss.SaveAsFile(ImagePath, ImageFormat.Jpeg);
+            ss.SaveAsFile(ImagePath, ScreenshotImageFormat.Jpeg);
             return ImagePath;
         }
 
@@ -72,7 +72,7 @@ namespace Project1.GenericMethods
             }
         }
 
-        public int GetLineNumber_Failure(Exception e)
+        public int GetLineNumber_Fail(Exception e)
         {
             var st = new StackTrace(e, true);
             var frame = st.GetFrame(st.FrameCount - 1);

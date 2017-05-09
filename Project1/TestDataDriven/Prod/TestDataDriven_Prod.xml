@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Properties>
+  <UserData>
+    <ID>37281524</ID>
+    <Password>1q2w3e</Password>
+  </UserData>
+  <ContactData>
+    <Fullname>בדיקה בדיקה</Fullname>
+    <Co_ID>890108558</Co_ID>
+    <Phone>0541111111</Phone>
+    <Email>Test1_!@Migdal.Co.iL</Email>
+  </ContactData>
+  <FindAgentData>
+    <AgentNamefield>אור י</AgentNamefield>
+    <AgencyNameField>סיני</AgencyNameField>
+    <AgentChoice>אור יפתח</AgentChoice>
+    <AgencyChoice>סיני סוכנות לביטוח</AgencyChoice>
+  </FindAgentData>
+</Properties>

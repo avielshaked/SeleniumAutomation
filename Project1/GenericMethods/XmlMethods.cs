@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace Project1.GenericMethods
 {
-    class XmlMethods : GenericMethods
+    public class XmlMethods : Generic_Methods
     {
         #region Fields
         protected string absolutePath = ConfigurationManager.AppSettings["TddPath"].ToString();

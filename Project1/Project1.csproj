@@ -54,17 +54,18 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ExtentReports, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExtentReports.3.0.2\lib\ExtentReports.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="nunit.framework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RelevantCodes.ExtentReports, Version=1.4.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExtentReports.2.41.0\lib\RelevantCodes.ExtentReports.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
@@ -91,17 +92,32 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="aaaa\aa.cs" />
-    <Compile Include="GenericMethods\GenericMethods.cs" />
+    <Compile Include="DataMethods\DataFunctions.cs" />
+    <Compile Include="GenericMethods\Generic_Methods.cs" />
     <Compile Include="GenericMethods\Wait_Methods.cs" />
     <Compile Include="GenericMethods\XmlMethods.cs" />
+    <Compile Include="PageObjectFactory\ContactPage_POF.cs" />
+    <Compile Include="PageObjectFactory\FindAgent_POF.cs" />
+    <Compile Include="PageObjectFactory\Login_POF.cs" />
+    <Compile Include="PageObjectFactory\PageGenerator.cs" />
+    <Compile Include="PageObjectFactory\ShinuiMaslul_POF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\ReportGenerator.cs" />
+    <Compile Include="TestCases\TestCases_Lab.cs" />
+    <Compile Include="TestCases\Test_Env_TestCases_Lab.cs" />
+    <Compile Include="TestsLabConfigurations\Lab_Configuration.cs" />
+    <Compile Include="WaitingMethods\WaitSync.cs" />
+    <Compile Include="WrapperFactory\BrowserFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Configuration\Prod\App.config" />
     <None Include="Configuration\Test\App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestDataDriven\Prod\TestDataDriven_Prod.xml" />
+    <Content Include="TestDataDriven\Test\TestDataDriven_Test.xml" />
   </ItemGroup>
   <ItemGroup />
   <Choose>
